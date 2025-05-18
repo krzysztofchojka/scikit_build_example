@@ -3,8 +3,8 @@
 #define STRINGIFY(x) #x
 #define MACRO_STRINGIFY(x) STRINGIFY(x)
 
-int add(int i, int j) {
-    return i + j;
+int add(int i, int j, int k) {
+    return i + j + k;
 }
 
 namespace py = pybind11;

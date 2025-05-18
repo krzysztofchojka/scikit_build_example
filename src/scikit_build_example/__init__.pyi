@@ -2,7 +2,7 @@
 Pybind11 example plugin
 -----------------------
 
-.. currentmodule:: scikit_build_example
+.. currentmodule:: biedronka
 
 .. autosummary::
     :toctree: _generate
@@ -11,9 +11,9 @@ Pybind11 example plugin
     subtract
 """
 
-def add(i: int, j: int) -> int:
+def add(i: int, j: int, k: int) -> int:
     """
-    Add two numbers
+    Add three numbers
 
     Some other explanation about the add function.
     """

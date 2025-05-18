@@ -34,7 +34,7 @@ An example project built with [pybind11][] and [scikit-build-core][]. Python
 ```python
 import biedronka
 
-biedronka.add(1, 2)
+biedronka.add(1, 2, 3)
 ```
 
 ## Files
